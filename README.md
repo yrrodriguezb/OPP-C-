@@ -36,3 +36,10 @@
     7. Prueba de una relación de composición
     8. Composición: Ids
     9. Herencia (Inheritance ("is a"))
+7. **Aprovechamiento de la reutilización a través de la herencia**
+    1. La clase de objeto .NET
+    2. Anulación de la funcionalidad de la clase base
+    3. Polimorfismo
+    4. Construyendo una clase base
+    5. Demostración: construyendo una clase base
+    6. Preparación de miembros de clase base reemplazables

@@ -23,9 +23,28 @@ namespace ACM.BL
         /// <summary>Save the current product</summary>
         public bool Save(Product product)
         {
-            // Code that saves the passed in product
+            var success = true;
 
-            return true;
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        // Call an insert stored prodecure
+                    }
+                    else
+                    {
+                        // Call an update stored prodecure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+            return success;
         }
     }
 }

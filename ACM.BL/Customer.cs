@@ -50,6 +50,8 @@ namespace ACM.BL
             set { _lastName = value; }
         }
 
+        public override string ToString() => FullName;
+
         /// <summary>Validates the customer data</summary>
         /// <returns></returns>
         public bool Validate()
