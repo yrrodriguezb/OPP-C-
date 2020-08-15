@@ -19,4 +19,10 @@
     1. Construyendo una clase: métodos
     2. Prueba de los métodos
     3. Construyendo una clase: constructores
-    
+5. **Separación de responsabilidades**
+    1. Separación de intereses
+    2. Revisando el diagrama de clases
+    3. Construyendo la clase de dirección
+    4. Construyendo una clase de repositorio
+    5. Prueba de una clase de repositorio
+    6. Construyendo los repositorios restantes

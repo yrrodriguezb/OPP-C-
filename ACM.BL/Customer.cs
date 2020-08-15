@@ -15,8 +15,6 @@ namespace ACM.BL
             CustomerId = customerId;
         }
 
-
-
         // Propiedad que esta en la clase pero no pertenece al objeto en si, ya que tiene el modificador estático
         public static int InstanceCount { get; set; }
         public int CustomerId { get; private set; }
@@ -46,24 +44,6 @@ namespace ACM.BL
         {
             get { return _lastName; }
             set { _lastName = value; }
-        }
-
-        /// <summary>Retrieve one customer</summary>
-        public Customer Retrieve(int customerId)
-        {
-            return new Customer();
-        }
-
-        /// <summary>Retrieve all customers</summary>
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
-        }
-
-        /// <summary>Save the current customer</summary>
-        public bool Save()
-        {
-            return true;
         }
 
         /// <summary>Validates the customer data</summary>
