@@ -15,3 +15,8 @@
     4. Usar fragmentos
     5. Probando la clase
     6. Modificador estático
+4. **Creación de clases de entidad: Métodos**
+    1. Construyendo una clase: métodos
+    2. Prueba de los métodos
+    3. Construyendo una clase: constructores
+    
