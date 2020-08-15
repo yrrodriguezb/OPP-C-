@@ -6,18 +6,22 @@ namespace ACM.BL
     public class Customer
     {
 
-        public Customer()
+        public Customer() : this(0)
         {
         }
 
         public Customer(int customerId)
         {
             CustomerId = customerId;
+            AddressList = new List<Address>();
         }
+
+        public List<Address> AddressList { get; set; }
 
         // Propiedad que esta en la clase pero no pertenece al objeto en si, ya que tiene el modificador estático
         public static int InstanceCount { get; set; }
         public int CustomerId { get; private set; }
+        public int CustomerType { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }
         public string FullName

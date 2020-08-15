@@ -26,3 +26,13 @@
     4. Construyendo una clase de repositorio
     5. Prueba de una clase de repositorio
     6. Construyendo los repositorios restantes
+6. **Estableciendo relaciones**
+    1. Definiendo las relaciones
+    2. Tipos de relaciones (Colaboración, Composición y Herencia)
+    3. Colaboración (Collaboration ("uses a"))
+    4. Composición (Composition ("has a"))
+    5. Composición: Referencias
+    6. Poblando los objetos referenciados
+    7. Prueba de una relación de composición
+    8. Composición: Ids
+    9. Herencia (Inheritance ("is a"))
