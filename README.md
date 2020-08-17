@@ -49,3 +49,10 @@
     3. Clases estáticas
     4. Métodos de extensión
     5. Método estático frente a método de extensión
+9. **Comprensión de las interfaces**
+   1.  Interfaz de clase
+   2.  Metáforas de interfaz
+   3.  Configuración de la demostración
+   4.  Definición de una interfaz
+   5.  Implementar una interfaz
+   6.  Polimorfismo basado en interfaz
