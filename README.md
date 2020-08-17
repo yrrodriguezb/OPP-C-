@@ -43,3 +43,9 @@
     4. Construyendo una clase base
     5. Demostración: construyendo una clase base
     6. Preparación de miembros de clase base reemplazables
+8.  **Construcción de componentes reutilizables**
+    1. Construyendo un componente reutilizable
+    2. Uso del componente reutilizable
+    3. Clases estáticas
+    4. Métodos de extensión
+    5. Método estático frente a método de extensión
