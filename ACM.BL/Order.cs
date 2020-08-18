@@ -23,30 +23,20 @@ namespace ACM.BL
         public int ShippingAddressId { get; set; }
 
         public string Log() =>
-            return $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EstityState.ToString()}";
+            $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()}";
 
         public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
 
         /// <summary>Validates the order data</summary>
         /// <returns></returns>
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
-            if (IsNull(OrderDate))
+            if (StringHandler.IsNull(OrderDate))
                 isValid = false;
 
             return isValid;
-        }
-
-        private bool IsNullOrWhiteSpace(string value)
-        {
-            return string.IsNullOrWhiteSpace(value);
-        }
-
-        private bool IsNull(DateTimeOffset? date)
-        {
-            return date == null;
         }
     }
 }

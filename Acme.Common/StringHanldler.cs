@@ -17,7 +17,7 @@ namespace Acme.Common
                 {
                     if (char.IsUpper(letter))
                     {
-                        result = result.trim();
+                        result = result.Trim();
                         result += " ";
                     }
 
@@ -25,8 +25,23 @@ namespace Acme.Common
                 }
             }
 
-            result = result.trim();
+            result = result.Trim();
             return result;
+        }
+
+        public static bool IsNull(string value)
+        {
+            return string.IsNullOrEmpty(value);
+        }
+
+        public static bool IsNull(DateTimeOffset? date)
+        {
+            return date == null;
+        }
+
+        public static bool IsNullOrWhiteSpace(string value)
+        {
+            return string.IsNullOrWhiteSpace(value);
         }
     }
 }

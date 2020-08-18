@@ -4,6 +4,6 @@ namespace Acme.Common
 {
     public interface ILoggable
     {
-        string log();
+        string Log();
     }
 }

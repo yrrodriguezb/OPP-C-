@@ -29,7 +29,7 @@ namespace Acme.CommonTest
                 ProductName = "Rake",
                 ProductDescription = "Garden Rake with Steel Head",
                 CurrentProce = 6M
-            }
+            };
 
             changedItems.Add(product);
 

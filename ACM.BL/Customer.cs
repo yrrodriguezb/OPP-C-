@@ -58,19 +58,14 @@ namespace ACM.BL
 
         /// <summary>Validates the customer data</summary>
         /// <returns></returns>
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
-            if (IsNullOrWhiteSpace(LastName) || IsNullOrWhiteSpace(EmailAddress))
+            if (StringHandler.IsNullOrWhiteSpace(LastName) || StringHandler.IsNullOrWhiteSpace(EmailAddress))
                 isValid = false;
 
             return isValid;
-        }
-
-        private bool IsNullOrWhiteSpace(string value)
-        {
-            return string.IsNullOrWhiteSpace(value);
         }
     }
 }
